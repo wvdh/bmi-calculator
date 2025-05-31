@@ -92,7 +92,7 @@ label {
     color: #55F991;
 }
 
-a.button {
+button {
     width: 100%;
     background-color: #10B981;
     color: white;
@@ -105,12 +105,12 @@ a.button {
     margin-top: 15px;
 }
 
-a.button:hover{
+button:hover{
 	background-color: #109669;
 	transition: background-color 0.2s;	
 }
 
-a.button:active{
+button:active{
 	transform: scale(0.98);
 	transition: transform 0.2s;	
 }

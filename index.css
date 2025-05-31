@@ -62,7 +62,7 @@ p {
 .card-footer {
     background-color: #1F2937;
     text-align: center;
-    padding: 0px 20px;
+    padding: 0px 10px;
 
 }
 
@@ -117,7 +117,7 @@ button:active{
 
 .btn {
     display: block;
-    width: 100%;
+    width: 92%;
     background-color: #10B981;
     color: white;
     font-family: 'Karla', sans-serif;
@@ -128,7 +128,8 @@ button:active{
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .btn:hover{

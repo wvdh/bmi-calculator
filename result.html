@@ -27,10 +27,11 @@
                 <p>Interpretation: <span id="bmiInterpretation">...</span></p>
                 <a href="index.html" class="btn">🔁 New calculation</a>
             </div>
+        </div>    
     </div>
-  <script>
-    document.getElementById('bmiValue').textContent = localStorage.getItem('bmi') || 'Not available';
-    document.getElementById('bmiInterpretation').textContent = localStorage.getItem('interpretation') || 'Not available';
-  </script>
+    <script>
+        document.getElementById('bmiValue').textContent = localStorage.getItem('bmi') || 'Not available';
+        document.getElementById('bmiInterpretation').textContent = localStorage.getItem('interpretation') || 'Not available';
+    </script>
 </body>
 </html>

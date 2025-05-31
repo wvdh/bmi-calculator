@@ -117,7 +117,7 @@ button:active{
 
 .btn {
     display: block;
-    width: 92%;
+    width: 81%;
     background-color: #10B981;
     color: white;
     font-family: 'Karla', sans-serif;
@@ -128,9 +128,8 @@ button:active{
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+    margin: 20px;
+    box-shadow: 0 4px 8px #0000004d;}
 
 .btn:hover{
 	background-color: #109669;

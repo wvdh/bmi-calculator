@@ -15,6 +15,10 @@ It calculates the Body Mass Index based on the user's input and provides a textu
 
 ---
 
+![ScreenshotBMI](https://github.com/user-attachments/assets/b8b37bdd-a988-447a-848d-e29e02b0cc70)
+
+---
+
 ## 🚀 Features
 
 - Clean and responsive user interface (HTML + CSS)

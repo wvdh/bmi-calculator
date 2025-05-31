@@ -114,3 +114,26 @@ button:active{
 	transform: scale(0.98);
 	transition: transform 0.2s;	
 }
+
+a. {
+    width: 100%;
+    background-color: #10B981;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+a.btn:hover{
+	background-color: #109669;
+	transition: background-color 0.2s;	
+}
+
+a.btn:active{
+	transform: scale(0.98);
+	transition: transform 0.2s;	
+}

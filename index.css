@@ -38,8 +38,8 @@ p {
     color: #4ADF86;
     background-color: #1F2937;
     font-family: 'Karla', sans-serif;
-    font-size: 18px
-    margin: 20px;
+    font-size: 16px;
+    margin: 20px 0px;
     padding: 0 20px;
 }
 .card {
@@ -57,6 +57,7 @@ p {
 .card-body {
     padding: 20px;
     background-color: #D5D4D8;
+    align-items: center;
 }
 
 .card-footer {

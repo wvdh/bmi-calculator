@@ -11,7 +11,6 @@ It calculates the Body Mass Index based on the user's input and provides a textu
 ## 🌐 Live Demo
 
 - **Frontend**: [https://wvdh.github.io/bmi-calculator](https://wvdh.github.io/bmi-calculator)
-- **Backend API** (Render): [https://bmi-calculator-vgwl.onrender.com](https://bmi-calculator-vgwl.onrender.com)
 
 ---
 

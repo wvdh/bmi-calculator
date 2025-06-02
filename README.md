@@ -19,7 +19,7 @@ It calculates the Body Mass Index based on the user's input and provides a textu
 - Possibility to do a new calculation
 ---
 
-![ScreenshotBMI](https://github.com/user-attachments/assets/b8b37bdd-a988-447a-848d-e29e02b0cc70)
+![ScreenshotBMI](https://github.com/user-attachments/assets/2a4c3e8f-3e7e-4809-a41d-fdd1ce4828d9)
 
 ---
 

@@ -11,7 +11,7 @@ It calculates the Body Mass Index based on the user's input and provides a textu
 
 ## 🌐 Live Demo
 
-**Frontend**: [https://wvdh.github.io/bmi-calculator](https://wvdh.github.io/bmi-calculator)  _It's a free plan on render.com so it takes a few for the application to start._
+**Frontend**: [https://wvdh.github.io/bmi-calculator](https://wvdh.github.io/bmi-calculator)  _It's a free plan on render.com so it takes a moment for the application to start._
 
 - Enter your height and weight
 - Get your BMI score and interpretation instantly

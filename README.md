@@ -141,4 +141,4 @@ GitHub: [https://github.com/wvdh](https://github.com/wvdh)
 
 ---
 
-![bmi](https://github.com/user-attachments/assets/38055079-2790-456f-9707-907786b7a2b8)
+![bmi](https://github.com/user-attachments/assets/3331e893-4401-420c-93ca-40d731de3f66)

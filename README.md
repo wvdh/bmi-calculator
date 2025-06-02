@@ -2,7 +2,8 @@
 
 **Stanford - Code in Place 2025** - _Final Project by Wanda van den Hoogen_
 
-This is a simple BMI Calculator web application built with a **Flask backend** and a **static HTML/CSS/JS frontend** hosted on **GitHub Pages**.
+This is a simple BMI Calculator web application built using **Python 3** and the **Flask web framework**. 
+The backend is deployed on Render, and the frontend is hosted on **GitHub Pages**.
 
 It calculates the Body Mass Index based on the user's input and provides a textual interpretation of the result (e.g., "normal", "underweight", "obese", etc.).
 
@@ -26,7 +27,7 @@ It calculates the Body Mass Index based on the user's input and provides a textu
 
 - Clean and responsive user interface (HTML + CSS)
 - Dynamic BMI calculation via Flask API
-- Server-side logic and BMI classification written in Python 3
+- Server-side logic and BMI classification written in **Python 3**
 - Full support for client-side navigation
 - Persistent display of results using `localStorage`
 - Hosted on GitHub Pages (frontend) and Render (backend)
@@ -62,15 +63,15 @@ A person who weighs 70 kg and is 1.75 m tall will have a BMI of:
 
 ---
 
-## 🧩 Technologies Used
+## 🔧 Technologies Used
 
-- **Python 3** (Backend logic, BMI calculation, and HTTP API handling)
-- **Flask** (API + templating)
-- **flask-cors** (CORS configuration for GitHub Pages)
-- **HTML/CSS** (Frontend layout and styling)
-- **JavaScript** (Form handling and `fetch()` API)
-- **GitHub Pages** (Static frontend hosting)
-- **Render.com** (Backend deployment)
+- **Python 3** – used for backend logic, BMI calculation, and HTTP API handling
+- **Flask** – lightweight Python web framework for routing
+- **flask-cors** – enables cross-origin requests from GitHub Pages
+- **HTML/CSS** – for frontend structure and styling
+- **JavaScript** – handles form submission and API interaction
+- **GitHub Pages** – static hosting for frontend
+- **Render.com** – cloud hosting for the Python backend
 
 ---
 
@@ -92,14 +93,37 @@ Flask is ideal for small to medium-sized projects due to its simplicity and flex
 📁 bmi-calculator/
 │
 ├── app.py                  # Flask backend
-├── requirements.txt        # Flask + flask-cors
+├── requirements.txt        # Python dependencies
 │
-├── index.html
-├── result.html
-│
-├── index.css               # Stylesheet
-├── assets/                 # Icons + images
-└── site.webmanifest
+├── index.html              # GitHub Pages frontend (independent)
+├── result.html             # GitHub Pages result display (independent)
+├── index.css               # Frontend CSS
+├── assets/                 # Icons and images
+├── site.webmanifest
+└── README.md
+```
+
+---
+
+## 📡 API Usage
+
+**Endpoint**: `POST /api/calculate`  
+**URL**: `https://bmi-calculator-vgwl.onrender.com/api/calculate`
+
+**Request (JSON):**
+```json
+{
+  "weight": 70,
+  "height": 1.75
+}
+```
+
+**Response (JSON):**
+```json
+{
+  "bmi": 22.86,
+  "interpretation": "Your weight is normal."
+}
 ```
 
 ---
@@ -112,7 +136,7 @@ This project is open-source and free to use under the MIT license.
 
 ## 🙋‍♂️ Author
 
-Built by **WvdH**  
+Created by **WvdH**    
 GitHub: [https://github.com/wvdh](https://github.com/wvdh)
 
 ---

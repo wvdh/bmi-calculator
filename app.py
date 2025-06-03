@@ -26,15 +26,15 @@ def get_bmi_interpretation(bmi):
         return 'You are severely obese.'
 
 # Original route for server-side rendering (useful for local testing or fallback)
-@app.route('/', methods=['GET', 'POST'])
-def index():
-    if request.method == 'POST':
-        weight = float(request.form['weight'])
-        height = float(request.form['height'])
-        bmi = round(weight / (height ** 2), 2)
-        interpretation = get_bmi_interpretation(bmi)
-        return render_template('result.html', bmi=bmi, interpretation=interpretation)
-    return render_template('index.html')
+#@app.route('/', methods=['GET', 'POST'])
+#def index():
+#    if request.method == 'POST':
+#        weight = float(request.form['weight'])
+#        height = float(request.form['height'])
+#        bmi = round(weight / (height ** 2), 2)
+#        interpretation = get_bmi_interpretation(bmi)
+#        return render_template('result.html', bmi=bmi, interpretation=interpretation)
+#    return render_template('index.html')
 
 # API route for frontend apps (GitHub Pages)
 @app.route('/api/calculate', methods=['POST'])

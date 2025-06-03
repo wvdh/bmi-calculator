@@ -13,8 +13,10 @@ It calculates the Body Mass Index based on the user's input and provides a textu
 
 **Frontend**: [https://wvdh.github.io/bmi-calculator](https://wvdh.github.io/bmi-calculator)  _It's a free plan on render.com so it takes a moment, the first time the application calculates the result._
 
-- Enter your height and weight
-- Get your BMI score and interpretation instantly
+- Visit the [live site](https://wvdh.github.io/bmi-calculator).
+- Enter your weight (kg) and height (meters).
+- Click **Calculate BMI**.
+- You will be redirected to the result page showing your BMI and interpretation.
 - Stylish and responsive interface
 - Possibility to do a new calculation
 ---
@@ -72,18 +74,6 @@ A person who weighs 70 kg and is 1.75 m tall will have a BMI of:
 - **JavaScript** – handles form submission and API interaction
 - **GitHub Pages** – static hosting for frontend
 - **Render.com** – cloud hosting for the Python backend
-
----
-
-##  🧪 What is Flask?
-
-Flask is a lightweight web framework for Python. It allows you to build web applications quickly and with minimal code. In this project, Flask is used to:
-
-- Handle routing (e.g., showing the form and result pages)
-- Process user input (height and weight)
-- Render HTML templates with dynamic content (like the BMI result)
-
-Flask is ideal for small to medium-sized projects due to its simplicity and flexibility.
 
 ---
 

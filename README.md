@@ -130,7 +130,8 @@ Created by **WvdH**
 GitHub: [https://github.com/wvdh](https://github.com/wvdh)
 
 ---
-## Image created by ChatGPT
+## 🖼 Image
+
+Created by ChatGPT
 
 ![bmi](https://github.com/user-attachments/assets/3331e893-4401-420c-93ca-40d731de3f66)
-
